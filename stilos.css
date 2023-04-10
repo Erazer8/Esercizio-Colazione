@@ -1,0 +1,109 @@
+body {
+   max-width: 1200px;
+    margin: auto;
+    font-family: sans-serif;
+background-color: rgb(255, 255, 255);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+nav a {
+    font-size: medium;
+    color: #343434;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header {
+align-items: center;
+    background-color: #c5c5c5;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    font-size: larger;
+   
+    margin: auto;
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+section h2 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.center {
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   background-color: black;
+    
+}
+
+ section.hero {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 40px;
+    background-color: #49474e;
+    border-radius: 20px 20px 0 0;
+    display: grid;
+    padding:40px 0 40px 0;
+ }
+ 
+section.card {
+    background-color: rgb(205, 205, 205);
+    border-radius: 0 0 10px 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+section.card h3 {
+    color: black;
+}
+section.card p {
+    margin-bottom: 10px;
+    color: #6c6c6c;
+}
+img {
+    max-width: 100%;
+}
+div.francese {
+    color: blue;
+    font-size: medium;
+    text-align: left;
+}
+p1 {
+    font-size: medium;
+  color: #666;
+}
+div.Americana {
+    
+    
+   
+}
+
+footer {
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+section.card img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
